@@ -38,7 +38,7 @@ public class SimpleCalc implements ActionListener{
 
         //make sure the program exits when the frame closes
         guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        guiFrame.setTitle("Dylan's Calculator");
+        guiFrame.setTitle("Simple Calculator");
         guiFrame.setSize(300,300);
 
         //This will center the JFrame in the middle of the screen
