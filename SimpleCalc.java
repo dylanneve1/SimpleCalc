@@ -17,12 +17,8 @@ public class SimpleCalc implements ActionListener{
     int calcOperation = 0;
     int currentCalc;
 
-    //Note: Typically the main method will be in a
-    //separate class. As this is a simple one class
-    //example it's all in the one class.
     public static void main(String[] args) {
 
-        //Use the event dispatch thread for Swing components
         EventQueue.invokeLater(new Runnable()
         {
 
