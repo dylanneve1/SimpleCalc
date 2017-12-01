@@ -17,8 +17,12 @@ public class SimpleCalc implements ActionListener{
     int calcOperation = 0;
     int currentCalc;
 
+    //Note: Typically the main method will be in a
+    //separate class. As this is a simple one class
+    //example it's all in the one class.
     public static void main(String[] args) {
 
+        //Use the event dispatch thread for Swing components
         EventQueue.invokeLater(new Runnable()
         {
 
@@ -38,8 +42,8 @@ public class SimpleCalc implements ActionListener{
 
         //make sure the program exits when the frame closes
         guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        guiFrame.setTitle("Simple Calculator");
-        guiFrame.setSize(300,300);
+        guiFrame.setTitle("Dylan's Calculator");
+        guiFrame.setSize(300,400);
 
         //This will center the JFrame in the middle of the screen
         guiFrame.setLocationRelativeTo(null);
